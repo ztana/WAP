@@ -1,0 +1,53 @@
+
+body {
+    background-color: darkolivegreen;
+    color: blue;
+}
+
+h1 {
+    font-family: Arial Black;
+    font-size : 6vw;
+    font-weight: bold;
+}
+p {
+    color: white;
+    
+}
+p:first-letter {
+    font-size: 150%
+}
+a {
+    color: darkred;
+    text-decoration: none;
+    
+}
+a:hover {
+        text-decoration: underline;
+}
+li {
+    color: white;
+}
+em {
+    color:yellow;
+}
+span {
+    color: white;
+}
+
+ol ul li {
+    list-style-type: none;
+}
+
+.Moods {
+    height:200px;
+    width:300px;
+}
+
+.moviekey {
+    color: yellow;
+}
+
+.movievalue {
+    color: lightgray;
+    text-indent: 20px;
+}
