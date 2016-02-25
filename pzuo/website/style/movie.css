@@ -1,0 +1,32 @@
+body {
+    background-image: url("../images/background.png");
+    font-size: 8pt;
+    font-family: Verdana Tahoma sans-serif;
+   
+}
+
+
+h1 {
+   font-family: Tahoma Verdana sans-serif;
+   font-size: 24pt;
+   font-weight: bold;
+   text-shadow: 3px 3px #999999;
+   text-align: center;
+}
+
+#banner {
+    background-image: url("../images/bannerbg.png");
+    text-align: center;
+    height: 50px;
+}
+
+#content {
+    width: 800px;
+    border: 4px gray solid;
+    border-radius: 20px;
+}
+#fl-right {
+    float:right;
+    width: 250px;
+    background: green;
+}
