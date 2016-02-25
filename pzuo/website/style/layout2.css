@@ -1,0 +1,22 @@
+body {
+    background: lightgray;
+    width: 500px;
+}
+h1 {
+    background: yellow;
+}
+
+#a1 {
+   
+}
+
+#a2 {
+    
+}
+
+.floating {
+     background: lightskyblue;
+     float: right;
+     margin-left: 10px;
+     width: 100px;
+}

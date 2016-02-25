@@ -1,0 +1,13 @@
+ul {
+   background: red; 
+   text-align: center;
+   padding: 20px;
+
+}
+li {
+    display: inline;
+    border: 1px solid black;
+    background: white;
+    padding: 10px;
+    
+}
