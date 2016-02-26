@@ -2,7 +2,8 @@ body {
     background-image: url("../images/background.png");
     font-size: 8pt;
     font-family: Verdana Tahoma sans-serif;
-   
+    text-align:center;
+
 }
 
 
@@ -14,6 +15,42 @@ h1 {
    text-align: center;
 }
 
+.comment {
+    background : #E8DC9B;
+    font-size:8pt;
+    font-weight:bold;
+    border: 2px gray solid;
+    border-radius:10px;
+    padding:8px;
+    float:left;
+    clear:left;
+    margin: 5px;
+   
+}
+
+.commenter {
+    float:left;
+    font-style:italic;
+    margin:5px 5px;
+    display:inline-block;
+    margin-bottom:15px;
+}
+.commentimages {
+    float:left;
+    clear:right;
+}
+
+.clearleft {
+    clear:both;
+}
+/*
+image.first-child {
+    background-color:red;
+}
+p.nth-child(odd) {
+    clear:left
+}
+ */
 #banner {
     background-image: url("../images/bannerbg.png");
     text-align: center;
@@ -24,9 +61,66 @@ h1 {
     width: 800px;
     border: 4px gray solid;
     border-radius: 20px;
+    display:inline-block;
+    text-align:left;
+    position:relative;
 }
 #fl-right {
     float:right;
     width: 250px;
-    background: green;
+    background: #A2B964;
+    font-family:Arial sans-serif;
+    margin-left:10pt;
+
 }
+
+#fl-left {
+    width:550px;
+
+}
+#comments {
+    column-count:2;
+    -webkit-column-count: 2;/*for chrome*/
+}
+#rottenlogo {
+    
+    background-image: url("../images/rbg.png");
+
+
+}
+#rating {
+    font-size : 48pt;
+    color: red;
+    font-weight :bold;
+    display:inline;
+    position:absolute;
+}
+#dlist {
+    margin-left:10px;
+}
+#dlist dt {
+    font-weight:bold;
+    
+}
+
+#dlist dd {
+    margin-bottom:10px;
+}
+#dlist dd ul li {
+    list-style-type: none;
+}
+#pages {
+    background-color:#A2B964;
+    position:absolute;
+    bottom:0;
+    right:0;
+    left:0;
+    text-align:center;
+}
+#links {
+    position:absolute;
+    bottom:0;
+    right:0;
+
+}
+
