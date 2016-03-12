@@ -18,16 +18,17 @@
             <p>Your current score is:
                 <%= ((Quiz)request.getAttribute("Quiz")).getNumCorrect() %>
                 </br></br>
+            <p>Attempt : <%= request.getAttribute("attimes") %></p>
                 <p>Guess the next number in the sequence!
                     <%= request.getAttribute("cQuest") %>
                 </p>
                 <p>Your answer:<input type='text' name='txtAnswer' value='' /></p>
-                <%! String showError = "false"; %>
-                <%! String nshowError = "true"; %>
-                <%= request.getAttribute("error") %>
-                <p style='color:red'>Your last answer was not correct! Please try again</p>
+               
+                <!--<p style='color:red' <%= request.getAttribute("error") %>>Your last answer was not correct! Please try again</p> -->
+                <p style='color:red' <%= request.getAttribute("style") %>><%= request.getAttribute("message") %></p>
                 
                 <p><input type='submit' name='btnNext' value='Next' /></p>
+                <p><input type='submit' name="hint" value="hint"/></p>
             </p>
         </form>
     </body>
