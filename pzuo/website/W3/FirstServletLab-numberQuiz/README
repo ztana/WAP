@@ -1,0 +1,22 @@
+use some time in hide the error message. I tired both hidden="true" nor
+hidden="false" are  make it hidden. so I add a string of "hidden" or ""
+to the p of error message and make it work.
+
+
+for the other error message(attempt)
+i was trying handle the error message dynamically.
+like read a text from other class and add it in.  failed.
+But I really want to continue trying.
+<script>
+                    :root {
+                        --test:"test";
+                    }
+                    document.getElementById("errMeg").innerHTML = var(--test);
+</script>
+
+                       min             max             fact            status
+reading(book)           30              60              50              finish
+attempt class           30              60              60              finish
+buttons                 60              90              80              finish
+quiz questions          90              120             120             in process.
+other                   60              120             120 

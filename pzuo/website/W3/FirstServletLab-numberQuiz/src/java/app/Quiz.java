@@ -28,11 +28,11 @@ public class Quiz {
      * Create a new Quiz with questions
      */
     public Quiz() {
-        questions.add(new Question("[3 1 4 1 5]", "9"));
-        questions.add(new Question("[1 1 2 3 5]", "8"));
-        questions.add(new Question("[1, 4, 9, 16, 25]", "36"));
-        questions.add(new Question("[2, 3, 5, 7, 11]", "13"));
-        questions.add(new Question("[1 2 4 8 16]", "32"));
+        questions.add(new Question("[3 1 4 1 5]", "9","PI"));
+        questions.add(new Question("[1 1 2 3 5]", "8","Fibonacci"));
+        questions.add(new Question("[1, 4, 9, 16, 25]", "36","self multiply"));
+        questions.add(new Question("[2, 3, 5, 7, 11]", "13","Prime"));
+        questions.add(new Question("[1 2 4 8 16]", "32","n * 2"));
     }
     
     /**
@@ -57,10 +57,14 @@ public class Quiz {
      */
     public void markAnswerCorrect() { //String ans) {
         //if (isCorrect(ans)) {
-            currentQuestionIndex++;
+            nextQuestion();
             numCorrect++;
         //}
         
+    }
+    
+    public void nextQuestion() {
+        currentQuestionIndex++;
     }
 
     /**
@@ -85,6 +89,11 @@ public class Quiz {
         return questions.get(currentQuestionIndex).getQuestion();
     }
     
-     
+    public String getCurrentAnswer() {
+        return questions.get(currentQuestionIndex).getAnswer();
+    }
 
+    public String getCUrrentHint() {
+        return questions.get(currentQuestionIndex).gethint();
+    }
 }

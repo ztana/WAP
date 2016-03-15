@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
@@ -6,3 +7,19 @@
         <group/>
     </open-files>
 </project-private>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Keith%20Levi/Dropbox/waaf/2013NovWAAFSols/solutions/solutions/FirstServletLab-numberQuiz/web/index.jsp</file>
+            <file>file:/C:/Users/Keith%20Levi/Dropbox/waaf/2013NovWAAFSols/solutions/solutions/FirstServletLab-numberQuiz/src/java/app/Quiz.java</file>
+            <file>file:/C:/Users/Keith%20Levi/Dropbox/waaf/2013NovWAAFSols/solutions/solutions/FirstServletLab-numberQuiz/test/appTests/TestQuiz.java</file>
+            <file>file:/C:/Users/Keith%20Levi/Dropbox/waaf/2013NovWAAFSols/solutions/solutions/FirstServletLab-numberQuiz/src/java/edu/mum/cs/cs545/lab03/TestRunner.java</file>
+            <file>file:/C:/Users/Keith%20Levi/Dropbox/waaf/2013NovWAAFSols/solutions/solutions/FirstServletLab-numberQuiz/src/java/app/Question.java</file>
+        </group>
+    </open-files>
+</project-private>
+>>>>>>> e7fa74c9883549d47724a0d197ba24ee2f8ef782
